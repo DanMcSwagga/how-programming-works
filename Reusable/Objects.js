@@ -16,7 +16,7 @@ varObj.name = 'Sharon';
 const otherObj = { someProperty: '' };
 
 // CONST_OBJ = otherObj; // assignment not allowed as CONST_OBJ is constant
-varObj = otherObj; // allowed, new pointer/referrence to an object
+varObj = otherObj; // allowed, new pointer/reference to an object
 
 const createUser = (name, city) => ({ name, city });
 
